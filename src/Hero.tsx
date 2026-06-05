@@ -124,22 +124,28 @@ export default function Hero() {
           }}
         />
 
-        {/* 2. Giant ghost text */}
+        {/* 2. Giant hero heading */}
         <div
           className="absolute inset-x-0 flex items-center justify-center pointer-events-none select-none"
           style={{ zIndex: 2, top: '18%' }}
         >
           <span
             style={{
+              position: 'relative',
               fontFamily: 'Anton, sans-serif',
               fontSize: 'clamp(90px, 28vw, 380px)',
               fontWeight: 900,
-              color: '#fff',
-              opacity: 1,
               lineHeight: 1,
               textTransform: 'none',
-              letterSpacing: '-0.02em',
+              letterSpacing: '-0.03em',
               whiteSpace: 'nowrap',
+              color: 'transparent',
+              background:
+                'linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0.78) 60%, rgba(255,255,255,0.5) 100%)',
+              WebkitBackgroundClip: 'text',
+              backgroundClip: 'text',
+              WebkitTextStroke: '2px rgba(255,255,255,0.85)',
+              filter: 'drop-shadow(0 12px 40px rgba(0,0,0,0.18))',
             }}
           >
             troft
