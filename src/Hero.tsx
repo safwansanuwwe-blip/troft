@@ -137,21 +137,21 @@ export default function Hero() {
               color: '#fff',
               opacity: 1,
               lineHeight: 1,
-              textTransform: 'uppercase',
+              textTransform: 'none',
               letterSpacing: '-0.02em',
               whiteSpace: 'nowrap',
             }}
           >
-            3D SHAPE
+            troft
           </span>
         </div>
 
         {/* 3. Top-left brand label */}
         <div
-          className="absolute top-6 left-4 sm:left-8 text-xs font-semibold uppercase"
+          className="absolute top-6 left-4 sm:left-8 text-xs font-semibold"
           style={{ zIndex: 60, color: '#fff', opacity: 0.9, letterSpacing: '0.18em' }}
         >
-          TROFT
+          troft
         </div>
 
         {/* 4. Carousel */}
@@ -182,14 +182,14 @@ export default function Hero() {
             className="font-bold uppercase tracking-widest mb-2 sm:mb-3 text-base sm:text-[22px]"
             style={{ color: '#fff', opacity: 0.95, letterSpacing: '0.02em' }}
           >
-            TROFT FIGURINES
+            FITS THAT HIT DIFFERENT
           </p>
           <p
             className="hidden sm:block text-xs sm:text-sm mb-4 sm:mb-5"
             style={{ color: '#fff', opacity: 0.85, lineHeight: 1.6 }}
           >
-            The artwork is stunning, shipped fully prepared. The finish is a vision, the
-            3D craft is flawless. Many thanks! Wishing you the win. Order now.
+            Shoes and threads built to stand out, not blend in. Bold drops, clean
+            silhouettes, zero filler. Cop the look before it's gone. Shop now.
           </p>
           <div className="flex gap-3">
             <NavButton onClick={() => navigate('prev')}>
@@ -221,7 +221,7 @@ export default function Hero() {
             }}
             className="group-hover:!opacity-100"
           >
-            DISCOVER IT
+            SHOP THE DROP
           </span>
           <ArrowRight
             className="w-5 h-5 sm:w-8 sm:h-8 ml-1"
